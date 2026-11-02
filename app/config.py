@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     pinecone_api_key: str = ""
     tavily_api_key: str = ""
 
-    pinecone_index: str = "medical-agent-demo"
+    pinecone_index: str = "medical-agent-local"
 
     gemini_chat_model: str = "gemini-3.5-flash-lite"
     gemini_embed_model: str = "gemini-embedding-001"

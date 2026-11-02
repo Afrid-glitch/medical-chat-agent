@@ -1,0 +1,6 @@
+#!/Users/afrid/medical-chat-agent/project/bin/python
+import sys
+from pymupdf.show_features import config
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(config())
